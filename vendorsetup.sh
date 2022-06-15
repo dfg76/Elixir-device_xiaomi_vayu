@@ -44,12 +44,12 @@ echo ""
 git clone https://gitlab.com/sanjeevstunner/vendor-g-cam-bsg.git vendor/Gcam
 fi
 
-# Pixel Launcher MOD
-if [[ -d "vendor/pixel/launcher" ]]; then
-echo "Looking for changes in Pixel Launcher MOD Repo"
-cd vendor/pixel/launcher && git pull && cd ../../..
+# Evolution security
+if [[ -d "vendor/evolution/build/target/product/security" ]]; then
+echo "Looking for changes in Evolution security"
+cd vendor/evolution/build/target/product/security && git pull && cd ../../../../../..
 echo ""
 else
 echo ""
-git clone https://github.com/sanjeevstunner/vendor_pixel_launcher.git vendor/pixel/launcher
+git clone https://github.com/Evolution-X/evolution_security.git vendor/evolution/build/target/product/security
 fi
