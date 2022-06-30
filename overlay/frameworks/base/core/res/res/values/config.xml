@@ -189,9 +189,6 @@
          May be less than the minimum allowed brightness setting
          that can be set by the user. -->
     <integer name="config_screenBrightnessDoze">17</integer>
-     
-    <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
-    <bool name="config_displayBlanksAfterDoze">true</bool>    
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
@@ -629,9 +626,9 @@
      </array>
 
      <array name="config_sfps_sensor_props_0" translatable="false">
-          <item></item>
-          <item></item>
-          <item>930</item>
+          <item>local:4630946480857061761</item>
+          <item>1080</item>
+          <item>910</item>
           <item>150</item>
      </array>
  
