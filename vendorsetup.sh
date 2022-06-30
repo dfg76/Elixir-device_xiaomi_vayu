@@ -51,5 +51,5 @@ cd vendor/evolution/build/target/product/security && git pull && cd ../../../../
 echo ""
 else
 echo ""
-git clone https://github.com/Evolution-X/evolution_security.git vendor/evolution/build/target/product/security
+git clone https://github.com/Evolution-X/evolution_security.git -b elle vendor/evolution/build/target/product/security
 fi
