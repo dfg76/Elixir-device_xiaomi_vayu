@@ -664,10 +664,6 @@
           available on some devices. -->
      <bool name="config_enableHapticTextHandle">true</bool>
 
-     <!-- Default color temperature, in Kelvin, to tint the screen when Night display is
-         activated. -->
-     <integer name="config_nightDisplayColorTemperatureDefault">3339</integer>
-     
      <!-- Package name of a telephony-related system app, such as an IMS service.
          Exempted from privacy indicators. -->
      <string name="config_systemTelephonyPackage" translatable="false">com.qualcomm.qti.cne</string>
