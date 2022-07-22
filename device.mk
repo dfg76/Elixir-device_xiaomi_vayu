@@ -345,7 +345,7 @@ PRODUCT_PACKAGES += \
    BluetoothResOverlay \
    FrameworksResOverlay \
    SettingsOverlay \
-   SettingsProviderOverlay \
+   SettingsProviderOverlayVayu \
    SystemUIOverlay \
    TelephonyOverlay
 
