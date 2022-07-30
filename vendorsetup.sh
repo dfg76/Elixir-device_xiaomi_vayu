@@ -11,7 +11,17 @@ cd vendor/xiaomi/vayu && git pull && cd ../../..
 echo ""
 else
 echo ""
-git clone https://github.com/ProjectElixir-Devices/vendor_xiaomi_vayu.git vendor/xiaomi/vayu
+git clone https://github.com/sanjeevstunner/vendor_xiaomi_vayu.git -b 12.1 vendor/xiaomi/vayu
+fi
+
+# Hardware Tree
+if [[ -d "hardware/xiaomi" ]]; then
+echo "Looking for changes in hardware tree"
+cd hardware/xiaomi && git pull && cd ../..
+echo ""
+else
+echo ""
+git clone https://github.com/sanjeevstunner/vendor_xiaomi_vayu.git -b 12.1 vendor/xiaomi/vayu
 fi
 
 # Kernel Tree
@@ -21,7 +31,7 @@ cd kernel/xiaomi/vayu && git pull && cd ../../..
 echo ""
 else
 echo ""
-git clone https://github.com/ProjectElixir-Devices/kernel_xiaomi_vayu.git -b r2 kernel/xiaomi/vayu
+git clone https://github.com/Jebaitedneko/android_kernel_xiaomi_vayu.git -b LA.UM.9.1.r1-12100-SMxxx0.QSSI12.0 kernel/xiaomi/vayu
 fi
 
 # Mi Parts
@@ -31,7 +41,7 @@ cd vendor/xiaomi/devicesettings && git pull && cd ../../..
 echo ""
 else
 echo ""
-git clone https://github.com/ProjectElixir-Devices/vayu_vendor_xiaomi_device_settings.git vendor/xiaomi/devicesettings
+git clone https://github.com/sanjeevstunner/vendor_xiaomi_device_settings.git -b los vendor/xiaomi/devicesettings
 fi
 
 # Google Camera
